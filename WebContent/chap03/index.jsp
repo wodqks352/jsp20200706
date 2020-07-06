@@ -4,9 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>html 문서의 제목</title>
 </head>
 <body>
-<h1>hellow jsp <a></a></h1>
+<%
+	String bookTitle = "jsp 포로그래밍";
+	String author = "최범균";
+	
+%>
+<b><%=bookTitle %></b>(<%= author %>) 입니다.
 </body>
 </html>
